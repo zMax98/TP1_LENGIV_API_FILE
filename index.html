@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargar archivos y mostrar nombres</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cargar archivos</h1>
+
+    <div class="box">
+        <label for="fileInput">Elegí uno o varios archivos</label>
+        <input type="file" id="fileInput" multiple/>
+
+        <h2>Archivos seleccionados</h2>
+        <ul id="fileList" class="file-list"></ul>
+
+        <h2>Vistas previas (imágenes)</h2>
+        <div id="previewGrid" class="preview-grid"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
